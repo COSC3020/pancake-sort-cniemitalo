@@ -29,3 +29,20 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons of pancakes? What is it in terms of the number of flips?
 Add your answer to this markdown file.
 
+## My Answer
+
+The asymptotic runtime for the number of comparisions of pancakes would be 
+$\Theta(n)$ in the best case because it would only need to check that every element is in it's correct place, which they all would be. It would be $\Theta(n^2)$ in the worst case because it would need to check that it's not in the correct place, and then not in the first case, before flipping the elements. 
+
+
+I think the asymptotic runtime complexity of my algorithm in terms of flips would
+be none for the best case, in which it's already sorted so there would be no need
+to do any flips. And in the worst case, it would be $\Theta(n)$, doing two flips 
+for every element. 
+
+## Sources and Plagiarism 
+
+https://www.geeksforgeeks.org/pancake-sorting/, used this to change to sort back to front instead of front to back, as well as determine maximum index 
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
