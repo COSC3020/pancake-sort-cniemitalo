@@ -32,13 +32,12 @@ Add your answer to this markdown file.
 ## My Answer
 
 The asymptotic runtime for the number of comparisions of pancakes would be 
-$\Theta(n)$ in the best case because it would only need to check that every element is in it's correct place, which they all would be. It would be $\Theta(n^2)$ in the worst case because it would need to check that it's not in the correct place, and then not in the first case, before flipping the elements. 
+$\Theta(n)$ in the best case because it would only need to check that every element is in it's correct place, which they all would be. It would be $\Theta(n^2)$ for the worst case....
 
 
 I think the asymptotic runtime complexity of my algorithm in terms of flips would
 be none for the best case, in which it's already sorted so there would be no need
-to do any flips. And in the worst case, it would be $\Theta(n)$, doing two flips 
-for every element. 
+to do any flips. And in the worst case, it would be $\Theta(n)$. The maximum number of flips would be 2 for every element, making it a linear number of flips. 
 
 ## Sources and Plagiarism 
 
