@@ -29,3 +29,22 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons of pancakes? What is it in terms of the number of flips?
 Add your answer to this markdown file.
 
+## My Answer
+
+Asymptotic complexity for comparisions of pancakes: 
+
+The program iterates through the array, finding the maximum element of each unsorted section and flips it so it's sorted in its correct position at the back of the array. Then it continues with the rest of the list. The main loop iterates through each element, n, and the findMax function iterates through the entire array again, n. Because findMax is nested in the main loop, n*n, the final complexity would be $\Theta(n^2)$. 
+
+
+Asymptotic complexity for flips: 
+
+The program iterates through the entire array and attempts to place the maximum element in the unsorted section in its correct position at the back of the array. Doing this, it would flip a single element a maximum of two times, 2n. Therefore the asymptotic complexity would be $\Theta(n)$ as constants are ignored. 
+
+## Sources and Plagiarism 
+
+Spoke briefly with TA Ali about the asymptotic complexities
+
+https://www.geeksforgeeks.org/pancake-sorting/, used this to change to sort back to front instead of front to back, as well as determine maximum index 
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
